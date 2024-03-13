@@ -61,8 +61,3 @@
 #### 5. the fine-grained vulnerability propagation analysis result is store as a txt file, whose download link is available in the file 'full_propgation_path_download.txt'
 
 #### 6. the whole propagation path of the vulnerable package plexus-archiver is liset in the file 'plexus_propagation_path.txt'
-#### 3. If fold tmp_data have file all_path.npy but don't have full_path.txt
-
-(1) Run AnalysePath.py in package propagation_analysis
-
-(2) If your all_path is more than one dependent package level, run AnalyseDemo.py in package propagation_analysis
