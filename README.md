@@ -48,7 +48,7 @@
 (2) Run path.py in package propagation_analysis, then we get a all_path.npy in tmp_data, and terminal will print the reachablility form upstream package to dowmstream package in method level.
 
 
-## Understanding the dataset:
+## Instruction of the study_data:
 
 #### 1. The vulnerability dataset of this paper is listed in the file 'vulnerability_ dataset_and_statistics.xlsx'
 
