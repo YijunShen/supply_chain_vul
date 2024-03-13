@@ -18,15 +18,15 @@
 
 ## How to construct a method-level supply chain:
 
-#### 1. copy the folder 'home' and all files inside it to the root folder of the linux system:
+#### 1. Copy the folder 'home' and all files inside it to the root folder of the linux system:
 
 #### 2. Java environment, Python environment(3.8.8), and neo4j database(4.3.3) is needed 
 
-#### 3. change the neo4j address in the resolve.py under '/home/sdp/science/lcp/CallGraph/src/main'
+#### 3. Change the neo4j address in the resolve.py under '/home/sdp/science/lcp/CallGraph/src/main'
 
-#### 4. change the input group, artifact, version in the main.py under '/home/sdp/science/lcp/CallGraph/src/main'
+#### 4. Change the input group, artifact, version in the main.py under '/home/sdp/science/lcp/CallGraph/src/main'
 
-#### 5. run main.py. Then the method-level supply chain will be constructed as follw: obtaining source jar file from the Maven Central website; analyzing the call-graph of the project; storing the result to target neo4j database
+#### 5. Run main.py. Then the method-level supply chain will be constructed as follw: obtaining source jar file from the Maven Central website; analyzing the call-graph of the project; storing the result to target neo4j database
 
 #### P.S. The java-call-graph tool is modified from the gr.gousiosg.javacg:0.1-SNAPSHOT. It has been complied and used as 'java_cg.jar'. The source code are disclosed under the folder ‘source_code_of_jave-call-graph_tool’
 
@@ -50,13 +50,13 @@
 
 ## Understanding the dataset:
 
-#### 1. the vulnerability dataset of this paper is listed in the file 'vulnerability_ dataset_and_statistics.xlsx'
+#### 1. The vulnerability dataset of this paper is listed in the file 'vulnerability_ dataset_and_statistics.xlsx'
 
-#### 2. the analysis result of the localization based on the vulnerability description is listed in the 'localization' sheet of the file 'vulnerability_ dataset_and_statistics.xlsx'
+#### 2. The analysis result of the localization based on the vulnerability description is listed in the 'localization' sheet of the file 'vulnerability_ dataset_and_statistics.xlsx'
 
-#### 3. the analysis result of the fix pattern is listed in the 'fix' sheet of the file 'vulnerability_ dataset_and_statistics.xlsx'
+#### 3. The analysis result of the fix pattern is listed in the 'fix' sheet of the file 'vulnerability_ dataset_and_statistics.xlsx'
 
-#### 4. the direct dependents(clients) depending on these vulnerable libraries is liset in the file 'clients_list.json'
+#### 4. The direct dependents(clients) depending on these vulnerable libraries is liset in the file 'clients_list.json'
 
 #### 5. the fine-grained vulnerability propagation analysis result is store as a txt file, whose download link is available in the file 'full_propgation_path_download.txt'
 
