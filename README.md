@@ -1,4 +1,4 @@
-## Understanding Vulnerabilities in Software Supply Chains:
+## "Understanding Vulnerabilities in Software Supply Chains":
 
 #### 1. The source_code consists of two part: the construction of fine-grained supply chain & the propagation analysis of the vulnerability:
 
