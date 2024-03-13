@@ -16,7 +16,7 @@
 #### 3. Use the code in 'propagation_analysis' to conduct the method-level vulnerability propagation analysis.
 
 
-## How to construct method-level supply chain:
+## How to construct a method-level supply chain:
 
 #### 1. copy the folder 'home' and all files inside it to the root folder of the linux system:
 
