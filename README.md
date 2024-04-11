@@ -18,13 +18,11 @@
 
 ## How to construct a method-level supply chain:
 
-#### 1. Copy the folder 'home' and all files inside it to the root folder of the linux system:
+#### 1. Java environment, Python environment(3.8.8), and neo4j database(4.3.3) is needed 
 
-#### 2. Java environment, Python environment(3.8.8), and neo4j database(4.3.3) is needed 
+#### 2. Change the neo4j address in the resolve.py under 'source_code/fine-grained_supply_chain_analysis/CallGraph/src/main'
 
-#### 3. Change the neo4j address in the resolve.py under '/home/sdp/science/lcp/CallGraph/src/main'
-
-#### 4. Change the input group, artifact, version in the main.py under '/home/sdp/science/lcp/CallGraph/src/main'
+#### 3. Change the input group, artifact, version in the main.py under 'source_code/fine-grained_supply_chain_analysis/CallGraph/src/main'
 
 #### 5. Run main.py. Then the method-level supply chain will be constructed as follw: obtaining source jar file from the Maven Central website; analyzing the call-graph of the project; storing the result to target neo4j database
 
