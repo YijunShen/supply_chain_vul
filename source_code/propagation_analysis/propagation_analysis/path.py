@@ -34,9 +34,8 @@ def dfs(node_id, target):
     return 0
 
 
-def query_indexed_path():
+def query_indexed_path(upstream):
 
-    upstream = 176
     target_list = np.load("../tmp_data/target_list.npy", allow_pickle=True).tolist()
     count = 0
     for node in target_list[1:]:
@@ -48,3 +47,5 @@ def query_indexed_path():
             print("%s is unreachable" % target)
     np.save("../tmp_data/all_path.npy", all_path)
     print(count)
+
+query_indexed_path(176)
